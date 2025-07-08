@@ -2,6 +2,10 @@ from fastmcp import FastMCP
 import requests
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 mcp = FastMCP("Get News Flash")
 
@@ -74,4 +78,4 @@ def get_article() -> str:
     return "No article data found"
 
 if __name__ == "__main__":
-    mcp.run(transport="http", host="127.0.0.1", port=8000, path="/mcp")
+    mcp.run(transport="http", host="127.0.0.1", port=8000, path="/mcp/")
