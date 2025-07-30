@@ -1,9 +1,20 @@
 # News feed (python version)
 
+[![smithery badge](https://smithery.ai/badge/@SpaceStation09/news-feed-python)](https://smithery.ai/server/@SpaceStation09/news-feed-python)
+
 使用[`fastmcp`](https://gofastmcp.com/getting-started/quickstart)工具，进行mcp server的开发，提供 blockbeats rss的data feed给大模型，以完成用户对于咨询查询的回答。
 
 ## 启动
 
+### Installing via Smithery
+
+To install News Feed Python Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@SpaceStation09/news-feed-python):
+
+```bash
+npx -y @smithery/cli install @SpaceStation09/news-feed-python --client claude
+```
+
+### Installing Manually
 安装依赖
 
 ``` bash
